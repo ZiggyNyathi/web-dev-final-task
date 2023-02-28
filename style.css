@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 25px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #c01975;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #cc217f;
+  }
+  
+  p {
+
+    color: #ce4892;
+    
+  }
+
+  h1 {
+         color: #131212;
+         font-size: 60px;
+  }
